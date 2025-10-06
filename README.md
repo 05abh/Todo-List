@@ -4,6 +4,72 @@ npm run dev
 cd mern-todo-app/frontend
 npm start
 
+
+# 🔐 Secure MERN Stack Todo Application
+
+![MERN Stack](https://img.shields.io/badge/MERN-Full%20Stack-green)
+![Security](https://img.shields.io/badge/Security-Enterprise%20Level-blue)
+![React](https://img.shields.io/badge/React-18.2.0-61dafb)
+![Node.js](https://img.shields.io/badge/Node.js-22.17.1-339933)
+![MongoDB](https://img.shields.io/badge/MongoDB-7.0-47A248)
+
+A production-ready Todo application built with the MERN stack featuring **enterprise-level security** implementation and a futuristic cyber-themed UI.
+
+## 🚀 Live Demo
+
+### 🌐 **Application Links**
+- **🎨 Frontend Application**: [Live Demo](http://localhost:3000)
+- **⚙️ Backend API**: [API Documentation](http://localhost:5001)
+- **🗄️ Database**: MongoDB on localhost:27017
+
+### 📱 **Quick Access**
+> **💡 Interviewer Tip**: Click the links above to see the running application!
+
+## 🎥 Application Preview
+
+| **Authentication** | **Todo Management** | **Security Dashboard** |
+|:------------------:|:-------------------:|:---------------------:|
+| ![Login](https://via.placeholder.com/300x200/0a0a1a/00f3ff?text=🔐+Secure+Login) | ![Todos](https://via.placeholder.com/300x200/0a0a1a/b967ff?text=📝+Todo+List) | ![Security](https://via.placeholder.com/300x200/0a0a1a/ff2a6d?text=🛡️+Security+Status) |
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### **Backend**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### **Security**
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcrypt-2A4A6E?style=for-the-badge&logo=key&logoColor=white)
+![Helmet](https://img.shields.io/badge/Helmet.js-FF6B6B?style=for-the-badge&logo=helmet&logoColor=white)
+
+## ✨ Key Features
+
+### 🔐 **Security First Approach**
+- **JWT Authentication** - Secure token-based auth with expiration
+- **Password Encryption** - bcrypt with 12 salt rounds
+- **XSS Protection** - Input sanitization & validation
+- **SQL Injection Prevention** - Parameterized queries
+- **Rate Limiting** - Brute force attack protection
+- **CORS Protection** - Controlled cross-origin requests
+
+### 📱 **User Experience**
+- **CRUD Operations** - Full Create, Read, Update, Delete functionality
+- **Priority System** - High, Medium, Low priority levels
+- **Deadline Tracking** - Smart due date management
+- **Real-time UI** - Instant updates with React state
+- **Responsive Design** - Mobile-first approach
+- **Cyber Theme** - Futuristic security-focused UI
+
+## 🏗️ Architecture
+
+<img width="846" height="514" alt="image" src="https://github.com/user-attachments/assets/d4c3d7f6-3bff-4cf2-8fab-f9ebe0ff4e6a" />
+
 # 🔐 Secure MERN Stack Todo Application
 
 A full-stack, production-ready Todo application built with the MERN stack (MongoDB, Express.js, React, Node.js) featuring enterprise-level security implementation and modern UI design.
@@ -61,21 +127,9 @@ Modern UI - Cyber-security themed with futuristic design
 
 # 🏗️ Project Architecture
 
-text
-mern-todo-app/
-├── 📁 backend/
-│   ├── 🛡️ middleware/ (auth, validation, rate limiting)
-│   ├── 🗄️ models/ (MongoDB schemas)
-│   ├── 🎯 controllers/ (business logic)
-│   ├── 🛣️ routes/ (API endpoints)
-│   └── ⚙️ config/ (database & environment)
-├── 📁 frontend/
-│   ├── 🧩 components/ (reusable UI components)
-│   ├── 🎭 context/ (authentication state)
-│   ├── 🔧 services/ (API calls)
-│   └── 🎨 styles/ (cyber-themed CSS)
-└── 📁 database/
-    └── 🗄️ MongoDB with Docker
+
+<img width="453" height="294" alt="image" src="https://github.com/user-attachments/assets/d9786733-2231-497d-aa29-b9dc99bbe450" />
+
 
 # 🔧 Installation & Setup
 
@@ -95,10 +149,7 @@ bash
 cd backend
 npm install
 
-# Environment Configuration
-cp .env.example .env
-# Edit .env with your MongoDB and JWT settings
-
+ 
 # Start Development Server
 npm run dev
 3. Frontend Setup
@@ -107,8 +158,8 @@ bash
 cd frontend
 npm install
 npm start
-4. Database Setup (Docker)
 
+4. Database Setup (Docker)
 bash
 # Start MongoDB with Docker
 docker run -d -p 27017:27017 --name todo-mongodb mongo:7.0
