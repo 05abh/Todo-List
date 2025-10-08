@@ -1,8 +1,8 @@
-cd mern-todo-app/backend
+cd mern-todo-app/backend<br>
 npm run dev
-
-cd mern-todo-app/frontend
-npm start
+<br>
+cd mern-todo-app/frontend<br>
+npm start<br>
 
 
 # 🔐 Secure MERN Stack Todo Application
@@ -471,3 +471,22 @@ All these attacks should be blocked by your security measures
 ✅ Information Disclosure
 ✅ Session Hijacking
 ✅ DDoS Attacks (basic level)
+<br>
+<hr>
+<br>
+<img width="1449" height="836" alt="Screenshot 2025-10-08 at 23 08 57" src="https://github.com/user-attachments/assets/d02f901c-d3c0-4aae-99b1-5680ca59b161" />
+<br>
+<img width="1449" height="836" alt="Screenshot 2025-10-08 at 23 08 35" src="https://github.com/user-attachments/assets/04f8b909-5efc-49dd-a122-3472a4545b4f" />
+<br>
+<img width="2898" height="1672" alt="image" src="https://github.com/user-attachments/assets/2b682d3f-072a-47c2-97e6-df2a0ae6f3db" />
+<br>
+<img width="1449" height="836" alt="Screenshot 2025-10-08 at 23 13 56" src="https://github.com/user-attachments/assets/eb94718c-1af6-43a9-bec5-30ee72046efb" />
+<br>
+<img width="1449" height="836" alt="Screenshot 2025-10-08 at 23 14 06" src="https://github.com/user-attachments/assets/92a05249-fb3c-4e98-9145-62689eb0f915" />
+<br>
+<img width="1449" height="836" alt="Screenshot 2025-10-08 at 23 08 41" src="https://github.com/user-attachments/assets/15d9cce1-5888-43aa-9903-93505935758f" />
+
+
+
+
+
